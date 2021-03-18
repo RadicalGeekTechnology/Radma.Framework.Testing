@@ -9338,11 +9338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mark/Code/Radma.Framework.Testing/Radma.Framework.Testing/Radma.Framework.Testing.csproj",
+      "projectUniqueName": "/home/mark/Code/Radma.Framework.Testing/src/Radma.Framework.Testing/Radma.Framework.Testing.csproj",
       "projectName": "Radma.Framework.Testing",
-      "projectPath": "/home/mark/Code/Radma.Framework.Testing/Radma.Framework.Testing/Radma.Framework.Testing.csproj",
+      "projectPath": "/home/mark/Code/Radma.Framework.Testing/src/Radma.Framework.Testing/Radma.Framework.Testing.csproj",
       "packagesPath": "/home/mark/.nuget/packages/",
-      "outputPath": "/home/mark/Code/Radma.Framework.Testing/Radma.Framework.Testing/obj/",
+      "outputPath": "/home/mark/Code/Radma.Framework.Testing/src/Radma.Framework.Testing/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mark/.nuget/NuGet/NuGet.Config"
