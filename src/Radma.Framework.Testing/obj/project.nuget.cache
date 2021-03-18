@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YD7r6CSRQFwpMgnaAx87J4/eSlqH8i77dZ8/NamJF2CzAx5lEaZ7985wou2EQoGeRs/FDYEZh7Z9fX+xfQLw2g==",
+  "dgSpecHash": "udkvT3vLUYJ2rky9nuS0pdedgm6t1dxPCnmHwMleAcZKQ9ci6JW48OsH8I6qofNmf0C5UBAXN6A/xWH4E+A9lg==",
   "success": true,
-  "projectFilePath": "/home/mark/Code/Radma.Framework.Testing/Radma.Framework.Testing/Radma.Framework.Testing.csproj",
+  "projectFilePath": "/home/mark/Code/Radma.Framework.Testing/src/Radma.Framework.Testing/Radma.Framework.Testing.csproj",
   "expectedPackageFiles": [
     "/home/mark/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
     "/home/mark/.nuget/packages/diffengine/6.4.9/diffengine.6.4.9.nupkg.sha512",
