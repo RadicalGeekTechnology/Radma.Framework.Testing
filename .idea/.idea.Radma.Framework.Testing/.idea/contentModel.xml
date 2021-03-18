@@ -8,7 +8,9 @@
     </e>
     <e p="$USER_HOME$/.nuget/packages/microsoft.testplatform.testhost/16.9.1/build/netcoreapp2.1/Microsoft.TestPlatform.PlatformAbstractions.dll" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="Radma.Framework.Testing" t="IncludeRecursive">
+      <e p="Radma.Framework.Testing.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src/Radma.Framework.Testing" t="IncludeRecursive">
         <e p="And.cs" t="Include" />
         <e p="Given.cs" t="Include" />
         <e p="Radma.Framework.Testing.csproj" t="IncludeRecursive" />
@@ -18,15 +20,13 @@
         <e p="When.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="netcoreapp3.1" t="Include">
               <e p="Radma.Framework.Testing.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
       </e>
-      <e p="Radma.Framework.Testing.sln" t="IncludeFlat" />
-      <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
 </project>
