@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/mark/Code/Radma.Framework.Testing/Radma.Framework.Testing/Radma.Framework.Testing.csproj",
+    "projectUniqueName": "/home/mark/Code/Radma.Framework.Testing/src/Radma.Framework.Testing/Radma.Framework.Testing.csproj",
     "projectName": "Radma.Framework.Testing",
-    "projectPath": "/home/mark/Code/Radma.Framework.Testing/Radma.Framework.Testing/Radma.Framework.Testing.csproj",
-    "outputPath": "/home/mark/Code/Radma.Framework.Testing/Radma.Framework.Testing/obj/",
+    "projectPath": "/home/mark/Code/Radma.Framework.Testing/src/Radma.Framework.Testing/Radma.Framework.Testing.csproj",
+    "outputPath": "/home/mark/Code/Radma.Framework.Testing/src/Radma.Framework.Testing/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
