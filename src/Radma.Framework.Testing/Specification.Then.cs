@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace Radma.Framework.Testing
 {
-    public partial class Spec
+    public partial class Specification
     {
         protected Task ThenAsync(Func<Task> action)
         {
