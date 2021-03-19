@@ -4,11 +4,11 @@ using Xunit.Abstractions;
 
 namespace Radma.Framework.Testing
 {
-    public partial class Spec
+    public partial class Specification
     {
         private readonly ITestOutputHelper _testOutput;
 
-        public Spec(ITestOutputHelper testOutput)
+        public Specification(ITestOutputHelper testOutput)
         {
             _testOutput = testOutput;
         }
