@@ -5,6 +5,7 @@ namespace Radma.Framework.Testing
 {
     public partial class Spec
     {
+        
         protected Task WhenAsync(Func<Task> action)
         {
             return StatementAsync("When {0}", action);
