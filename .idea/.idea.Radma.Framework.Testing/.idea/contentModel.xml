@@ -11,12 +11,12 @@
       <e p="Radma.Framework.Testing.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="src/Radma.Framework.Testing" t="IncludeRecursive">
-        <e p="And.cs" t="Include" />
-        <e p="Given.cs" t="Include" />
         <e p="Radma.Framework.Testing.csproj" t="IncludeRecursive" />
-        <e p="Spec.cs" t="Include" />
+        <e p="Specification.And.cs" t="Include" />
+        <e p="Specification.Given.cs" t="Include" />
+        <e p="Specification.Then.cs" t="Include" />
+        <e p="Specification.cs" t="Include" />
         <e p="Statement.cs" t="Include" />
-        <e p="Then.cs" t="Include" />
         <e p="When.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
