@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace Radma.Framework.Testing
 {
-    public static class HttpClientHelpers
+public static class HttpClientHelpers
     {
         public static async Task<HttpResponseMessage> CallGetAsync(TestServer webApp, string uri)
         {
