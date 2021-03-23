@@ -5,18 +5,18 @@ namespace Radma.Framework.Testing
 {
     public partial class Specification
     {
-         private async Task StatementCoreAsync(string message, Func<Task> action)
+        private async Task StatementCoreAsync(string message, Func<Task> action)
         {
-            _testOutput.WriteLine(message);
+            _output.WriteLine(message);
 
             try
             {
                 await action();
-                _testOutput.WriteLine("...done");
+                _output.WriteLine("...done");
             }
             catch (Exception e)
             {
-                _testOutput.WriteLine($"Error - {e.Message}");
+                _output.WriteLine($"Error - {e.Message}");
                 throw;
             }
         }
@@ -118,6 +118,5 @@ namespace Radma.Framework.Testing
                 GetLogMessage(messageFormat, action, argument1, argument2),
                 () => action(argument1, argument2));
         }
-        
     }
 }
