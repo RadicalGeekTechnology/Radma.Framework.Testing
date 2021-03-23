@@ -1,18 +1,18 @@
-﻿using System;
+using System;
 using System.Linq;
 using Xunit.Abstractions;
 
 namespace Radma.Framework.Testing
 {
-    public partial class Spec
+    public partial class Specification
     {
-        private readonly ITestOutputHelper _testOutput;
+        private readonly ITestOutputHelper _output;
 
-        public Spec(ITestOutputHelper testOutput)
+        public Specification(ITestOutputHelper output)
         {
-            _testOutput = testOutput;
+            _output = output;
         }
-        
+
         protected string GetLogMessage(string format, Delegate @delegate, params object[] arguments)
         {
             var name = @delegate.Method.Name.Replace('_', ' ');
